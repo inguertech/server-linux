@@ -1,7 +1,7 @@
 # Notes
-Hadir's notes on supply chain, operations research, programming languages such as Julia, Python, C++, HTML, VBA and SQL.
+platzi server
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
@@ -24,6 +24,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ## Learn More
 
 platzi
-## Deploy on Vercel
+## Deploy on platzi
 
 platzi

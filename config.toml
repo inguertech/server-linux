@@ -1,0 +1,67 @@
+baseURL = "https://notes.hadir.ga/"
+author = "Hadir Garcia-Castro"
+title = "Hadir's Notes"
+languageCode = "en-us"
+copiright = "MIT License"
+
+theme = "hadirga"
+
+publishDir = "docs"
+pluralizelisttitles = false
+
+googleAnalytics = "GTM-NBL2HMB"
+
+[params]
+  # General information
+  homepage = "https://notes.hadir.ga/"
+  description = "My technical notes on Supply Chain & Operations Research."
+
+  version = "0.1.0"
+  logo = "/images/hadir-logo.png"
+  favicon = "/images/hadir-favicon.png"
+
+	permalink = "#"
+	google_verify_meta = "IYAUkSAAFbNKrdPe-9M1BNoyy8bJi7pwYoP1lPJeJrw"
+
+
+  [params.palette]
+    black = "#10122b"
+    green  = "#39b54a"
+
+  [params.font]
+    # if changed herem remember to change at .css files or use SCSS template.
+    headers = "Dosis"
+    body = "Roboto"
+    code = "Consolas"
+
+[social]
+	email = "halexandergc@gmail.com"
+	facebook = "hadirgc"
+  github = "hadirga"
+  gitlab = "hadirga"
+  instagram = "hadir.ga"
+  linkedin = "hadirga"
+	twitter = "hadirga"
+	whatsapp = "+5511986746209"
+
+[[menu.main]]
+	name   = "Home"
+	url    = "https://hadir.ga/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Notes"
+	url    = "/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Social"
+	url    = "Social/"
+	weight = 30
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
